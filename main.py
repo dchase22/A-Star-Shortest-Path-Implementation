@@ -67,13 +67,11 @@ def reconstruct_path(came_from, current):
     return the_path
 
 
-path = a_star_search(grid, start, goal)
-
-if path:
-    print("Path found:")
-    print(path)
-else:
-    print("No path found.")
-
 if __name__ == '__main__':
-    pass
+    path = a_star_search(grid, start, goal)
+
+    if path:
+        print("Path found:")
+        print(path)
+    else:
+        print("No path found.")
