@@ -1,5 +1,7 @@
 import heapq
 
+# Test
+
 # Define the grid (0 = free, 1 = obstacle)
 grid = [
     [0, 0, 0, 0, 1],
